@@ -45,7 +45,7 @@ for i in range(1,1000000000000000):
             print('WAIT')
         else: 
             p2+=board[p2]
-        print(p2,' is the player 2 position')
+        print("player 2 position:",p2)
     #player 1 turn if i was odd number    
     else:
         print('player 1 turn')
@@ -57,7 +57,7 @@ for i in range(1,1000000000000000):
             print('wait')
         else:    
             p1+=board[p1]
-        print(p1,' is the psition of player1')
+        print("player 1 position:",p1)
     #reseting the dice value to 0   
     dice=0    
   #aurthor jawahar 
